@@ -1,5 +1,6 @@
 # setup
 # modified by zerom for WinARM 8/2010
+# modified by DresnerRobotics for GNU ARM Toolchain - Linux 4/2015
 
 COMPILE_OPTS = -mcpu=cortex-m3 -mthumb -Wall -g -Os -fno-common 
 INCLUDE_DIRS = -I. -Istm32f10x_lib/inc -ICM730_HW/inc -ICM730_APP/inc
